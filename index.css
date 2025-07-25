@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-container {
+    background: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color:skyblue;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:Yellow;
+    border-radius:5px;
+    padding:10px;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+     background-color:lightgreen;
+    border-radius:5px;
+    padding:10px;
+}
+
+#options button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#options correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+#options wrong {
+    background-color: #f44336;
+    color: white;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#next {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
